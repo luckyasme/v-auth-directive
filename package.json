@@ -1,10 +1,10 @@
 {
   "name": "v-auth-directive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a vue permission directive",
   "exports": {
     ".": {
-      "types": "./dist/type/index.d.ts",
+      "types": "./dist/types/index.d.ts",
       "require": "./dist/index.umd.js",
       "import": "./dist/index.mjs"
     }
@@ -20,11 +20,10 @@
   "main": "./dist/index.umd.js",
   "module": "./dist/index.mjs",
   "type": "module",
-  "types": "./dist/type/index.d.ts",
+  "types": "./dist/types/index.d.ts",
   "files": [
     "dist",
-    "README-zh-cn.md",
-    "tsconfig.json"
+    "README-zh-cn.md"
   ],
   "scripts": {
     "dev": "rollup -w -c",
