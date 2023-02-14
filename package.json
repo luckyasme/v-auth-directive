@@ -29,9 +29,13 @@
   "scripts": {
     "dev": "rollup -w -c",
     "build": "node scripts/prebuild && rollup -c",
-    "publish": "node scripts/prebuild && rollup -c"
+    "publish": "node scripts/prebuild && rollup -c && npm publish"
   },
   "author": "luckyasme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luckyasme/v-auth-directive.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",

@@ -62,7 +62,7 @@ new Vue({
 
 Directives can set judgment modifiers. When a modifier is true, the element is allowed to be displayed.
 
-There are two built-in judgment modifiers, one is **or**, the other is **and**. When there are no judgment modifiers, the default judgment is the same as or.
+There are two built-in judgment modifiers, one is **or**, the other is **and**. When there are no judgment modifiers, the default judgment is the same as ***or***.
 
 ①or：displays when the permission data contains one of these elements
 
